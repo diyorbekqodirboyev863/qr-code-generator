@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+body {
+    padding: 0 10px;
+    min-height: 100vh;
+    background: #ebebeb;
+}
+
+.wrapper {
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 50px auto 0;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+p .orange {
+    color: #ff6600;
+}
+
+.form {
+    gap: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.form input,
+.form button {
+    padding: 0 15px;
+}
+
+.form input {
+    flex: 1;
+    outline: none;
+    border: 1px solid #878787;
+}
+
+.form button {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: #ff6600;
+}
+
+.form button:hover {
+    background: #ff5500;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #878787;
+}
